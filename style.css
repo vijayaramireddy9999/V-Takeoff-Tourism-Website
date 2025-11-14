@@ -1,0 +1,458 @@
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px 50px;
+    background-color: orange;
+    
+}
+
+nav h2{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #fff;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.Logo{
+    height: 80px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.Logo img{
+    border-radius: 50px;
+    width: 100px;
+    height: 95px;
+}
+
+
+
+#Nav-items{
+   display: flex;
+   gap:30px;
+   list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+marquee{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Banner{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.Banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.banner_text{
+    position: absolute;
+    bottom: 200px;
+    left: 28%;
+    color: wheat;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner_text h2{
+    font-size: 50px;
+}
+
+.banner_text button{
+    width: 30%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 168, 5);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.About-Page{
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    width: 60%;
+    padding: 20px 40px;
+    text-align: center;
+    border: 2px solid rgb(240, 161, 14);
+}
+
+.About-Page h1{
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+.About-Page p{
+    font-size: 25px;
+    line-height: 1.2em;
+}
+
+.About-Page q{
+    font-size: 20px;
+}
+
+.des{
+    margin:auto;
+    text-align: center;
+}
+
+.des h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+
+.des-cards{
+    width: 300px;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.des-cards img{
+    width: 100%;
+    border: 12px;
+    margin-bottom: 15px;
+}
+
+.des-cards:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0 8px 20px rgba(0,0,0,0.15));
+}
+
+.des-cards button{
+    padding:10px 20px ;
+    background: #ff7a00;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.des-cards button:hover{
+    background: #e56e00;
+}
+
+#dcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/*package cards */
+
+.packages{
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+    text-decoration: underline;
+}
+
+
+.packcards{
+    width: 300px;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.packcards img{
+    width: 100%;
+    border: 12px;
+    margin-bottom: 15px;
+}
+
+.packcards:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0 8px 20px rgba(0,0,0,0.15));
+}
+
+.packcards button{
+    padding:10px 20px ;
+    background: #ff7a00;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.packcards button:hover{
+    background: #e56e00;
+}
+
+.packcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.packcard img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.Gallery{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+marquee img{
+    width: 380px;
+    height: 210px;
+}
+
+
+/*Testimonials*/
+
+.testcard{
+    width: 300px;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+#testmonial{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+}
+
+.testhead{
+    text-decoration: underline;
+    
+}
+
+#testmonial h1{
+    padding-bottom: 20px;
+}
+
+.Testmonialscards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+.Cform{
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px;
+    padding: 20PX;
+
+}
+
+form{
+    text-align: center;
+    padding: auto;
+    margin-bottom: 5px;
+}
+
+#Contact{
+    margin-bottom: 30px;
+}
+
+
+.formcls{
+    border: 2px solid orange;
+    padding: 20px;
+    width: 400px;
+    margin: 50px auto;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color:orange;
+    padding: 2px;
+}
+
+.ftl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+    
+}
+
+footer p{
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+/* mobile view*/
+
+
+@media (max-width:765px) {
+
+    nav{
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .Logo{
+       
+        gap: 10px;
+    }
+
+    .Logo img{
+        width: 45px;
+        height: 45px;
+    }
+
+    #Nav-items{
+        display: none;
+    }
+
+    a{
+        font-size: 17px;
+    }
+
+    .Banner{
+        height: 250px;
+    }
+
+    .banner_text{
+        left: 5%;
+        right: 5%;
+        bottom: 21%;
+        font-size: 19px;
+    }
+
+    .banner_text h2{
+        font-size: 25px;
+    }
+
+    .banner_text button{
+        width: 50%;
+        height: 34px;
+        font-size: 17px;
+    }
+
+    .About-Page{
+        width: 70%;
+        padding: 15px;
+    }
+
+    .About-Page p{
+        font-size: 19px;
+    }
+
+    #dcards{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .des-cards{
+        width: 90%;
+    }
+
+    .packcard{
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .packcard{
+        width: 90%;
+    }
+
+    .packcards img{
+        width: 100%;
+        height: auto;
+    }
+
+    marquee img{
+        width: 250px;
+        height: 150px;
+    }
+
+    .Testmonialscards{
+        flex-direction: column;
+    }
+    .testcard{
+        width: 90%;
+    }
+
+    .formcls{
+        width: 90%;
+        padding: 14px;
+    }
+
+    form input, form textarea{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+    
+}
+
